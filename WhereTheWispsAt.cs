@@ -6,7 +6,6 @@ using ExileCore.Shared.Helpers;
 using SharpDX;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.Intrinsics;
 using Vector3N = System.Numerics.Vector3;
 using Vector2N = System.Numerics.Vector2;
 
