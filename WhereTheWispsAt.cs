@@ -141,6 +141,10 @@ public class WhereTheWispsAt : BaseSettingsPlugin<WhereTheWispsAtSettings>
                 Wisps.Encounters[entity] = metadata[(metadata.LastIndexOf('/') + 1)..];
                 break;
 
+            case "Metadata/Chests/LeagueAzmeri/OmenChest":
+                Wisps.Encounters[entity] = "Omen Chest";
+                break;
+
             case not null when metadata.Contains("Azmeri/SacrificeAltarObjects"):
                 Wisps.Altars.Add(entity);
                 break;
